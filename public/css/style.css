@@ -23,6 +23,7 @@ h2{
   
 h3{
     font-size: 18px;
+    text-align: center;
 }
 
 span{
@@ -38,6 +39,16 @@ h4 {
 .burger-menu{
     text-align: center;
     background-color: blue;
-    
-    
+    display: none;
 }
+@media (max-width: 600px) {
+    .burger-menu{
+        display: block;
+    }
+}
+
+p{
+    font-size: 16px;
+    text-align: center;
+}
+
