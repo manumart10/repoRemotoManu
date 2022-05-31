@@ -4,7 +4,7 @@
 body header {
     background-color: #EAC926;
     font-family: 'Roboto', sans-serif;
-    
+    padding: 10px;
 }
 
 .field{
@@ -134,8 +134,27 @@ footer i {
     font-size: 2em;
 }
 
-@media (max-width: 600px) {
+
+
+@media (min-width: 570px) {
     .burger-menu{
-        display: block;
+    display: none;
+    }
+    
+}
+
+
+@media (min-width: 361px){
+    
+}
+@media (min-width: 769px){
+    
+}
+@media (max-width: 570px){
+    nav{
+        display: none;
+    }
+    .descripcion{
+        display: none;
     }
 }
