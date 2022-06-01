@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 body header {
     background-color: #EAC926;
@@ -9,6 +10,20 @@ body header {
 
 .field{
 margin-left: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -30px;
+    
+}
+nav ul{
+    display: flex;
+}
+
+nav li{
+    margin: 0 8px;
 }
 
 main{
@@ -44,7 +59,8 @@ main{
 
 .centrado{
     text-align: center;
-    margin-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .banner{
@@ -103,6 +119,9 @@ article{
     
     
 }
+.field{
+    border-radius: 5px;
+}
 
 article div p {
     text-align: left;
@@ -119,11 +138,13 @@ p{
     
 }
 
-footer{
-    background-color:#ebebeb; 
+.footer{
+    background-color:white; 
     font-family: 'Roboto', sans-serif;
     color: #666;
     text-align: center;
+    box-sizing: border-box;
+    margin: auto;
 }
 
 footer i {
@@ -147,9 +168,7 @@ footer i {
 @media (min-width: 361px){
     
 }
-@media (min-width: 769px){
-    
-}
+
 @media (max-width: 570px){
     nav{
         display: none;
@@ -157,4 +176,16 @@ footer i {
     .descripcion{
         display: none;
     }
+}
+
+@media (min-width: 769px){
+    .logo-bus-cent{
+        display: flex;
+        justify-content: space-between;
+    }
+    .centrado{
+        max-width: 350px;
+        text-align: right;
+    }
+
 }
